@@ -1,0 +1,130 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.business-card {
+    display: flex; /* Make the container a flexbox */
+}
+
+.address,
+.contact,
+.email {
+    flex: 1; /* Make all child elements take up equal space */
+    padding: 1rem; /* Add padding for spacing */
+    border-right: 3px solid #ddd; /* Add borders between elements */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-color: #ffd1c7;
+    text-align: center; /* Center text within containers */
+}
+
+    .email:last-child {
+        border-right: none; /* Remove the border from the last child */
+    }
+
+.business-card a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.material-symbols-outlined {
+   
+    width:30%; /* Make image scale to container width */
+    height: auto; /* Maintain image aspect ratio */
+}
+
+.banner {
+    position: relative; /* Needed for absolute positioning of text container */
+    width: 100%; /* Adjust width as needed */
+    height: 5%;
+}
+
+    .banner img {
+        width: 100%; /* Display the image full-width */
+        height: auto;
+    }
+
+.banner-text {
+    position: center; /* Positioned on top of the banner image */
+    bottom: 0;/* Align to bottom of the banner */
+    height:100%;
+    width: 100%; /* Span the full width of the banner */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff; /* White text color for better contrast */
+    padding: 2rem; /* Add padding for spacing */
+    text-align: center; /* Center text horizontally */
+}
+
+    .banner-text h2 {
+        margin-top: 0; /* Remove top margin from heading */
+        font-size: 2rem; /* Adjust heading font size */
+    }
+
+    .banner-text p {
+        margin-bottom: 1rem; /* Add space between paragraph and button */
+    }
+
+    .banner-text a {
+        background-color: #333; /* Button background color */
+        color: #fff; /* Button text color */
+        padding: 1rem 2rem; /* Button padding */
+        text-decoration: none; /* Remove underline from button */
+        font-weight: bold; /* Button text weight */
+    }
+
+
+
+
+
+}
